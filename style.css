@@ -1,0 +1,271 @@
+/* css Zen Garden default style v1.02 */
+/* css released under Creative Commons License - http://creativecommons.org/licenses/by-nc-sa/1.0/  */
+
+/* This file based on 'Tranquille' by Dave Shea */
+/* You may use this file as a foundation for any new work, but you may find it easier to start from scratch. */
+/* Not all elements are defined in this file, so you'll most likely want to refer to the xhtml as well. */
+
+/* basic elements */
+
+@import url("https://fonts.googleapis.com/css2?family=Cute+Font&display=swap");
+
+html {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* 	font: 75% georgia, sans-serif; */
+/*   line-height: 1.88889; */
+  color: white;
+  background: url(https://cdn.glitch.com/8dd44232-343f-4dfb-8aaa-2bd74cb2cbba%2Fwebsite_BG.png?v=1613441560006) no-repeat center;
+  margin: 0;
+  padding: 0px;
+  font-family: "Cute Font", cursive;
+  background-color: #C48851;
+}
+
+p {
+  margin-top: 0;
+  text-align: justify;
+  background-color: rgba(201, 76, 76, 0.6);
+  border-style: solid;
+  font-size: 25px;
+  
+}
+h3 {
+  /*font: italic normal 1.4em georgia, sans-serif;*/
+  letter-spacing: 1px;
+  margin-bottom: 0;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-style: solid;
+  font-size: 25px;
+  font-family: "Cute Font", cursive;
+  
+}
+a:link {
+  font-weight: bold;
+  font-size: 25px;
+  text-decoration: none;
+  color: #B7A5DF;
+}
+a:visited {
+  font-weight: bold;
+  text-decoration: none;
+/*   color: #D4CDDC; */
+  
+}
+a:hover,
+a:focus,
+a:active {
+  text-decoration: underline;
+  color: #9685BA;
+  
+}
+/* abbr {
+  border-bottom: none;
+} */
+
+/* specific divs */
+/* .page-wrapper {
+  padding; 0;
+  margin: 0;
+  position: relative;
+  text-align: center;
+} */
+/* 
+.intro {
+  min-width: 720px;
+  width: 100%;
+  text-align: center;
+} */
+
+.summary {
+  clear: both;
+  margin: 100px 20px 20px 250px;
+  width: 150px;
+  float: left;
+  border-style: solid;
+  border-color: black;
+  text-align: center;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.summary p {
+  /* 	font: italic 1.1em/2.2 georgia;  */
+  font-family: "Cute Font", cursive;
+  text-align: center;
+  border-style: solid;
+  font-size: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.preamble {
+  clear: right;
+  padding: 0px 10px 0 10px;
+}
+.supporting {
+  padding-left: 10px;
+  margin-bottom: 40px;
+}
+
+footer {
+  text-align: center;
+/*   border-style: solid; */
+  border-color: black;
+  font-family: "Cute Font", cursive;
+  font-szie: 5  0px;
+}
+footer a:link,
+footer a:visited {
+  margin-right: 20px;
+  border-style: solid;
+}
+
+.sidebar {
+  margin-left: 600px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  border-style: solid;
+  background-color: #C77216;
+}
+.sidebar .wrapper {
+/*   font: 10px verdana, sans-serif; */
+  background: transparent
+    url(
+        https://cdn.glitch.com/8dd44232-343f-4dfb-8aaa-2bd74cb2cbba%2Fwebsite_BG.png?v=1613441560006
+      )topleftrepeat-y;
+  padding: 10px;
+  margin-top: 150px;
+  width: 130px;
+}
+.sidebar h3.select {
+  background: transparent;
+  margin: 10px 0 5px 0;
+  width: 97px;
+  height: 16px;
+  font-family: "Cute Font", cursive;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sidebar h3.archives {
+  background: transparent
+    url(
+        https://cdn.glitch.com/8dd44232-343f-4dfb-8aaa-2bd74cb2cbba%2Fwebsite_BG.png?v=1613441560006
+      )no-repeattopleft;
+  margin: 25px 0 5px 0;
+  width: 57px;
+  height: 14px;
+
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.sidebar h3.resources {
+  background: transparent
+    url(
+        https://cdn.glitch.com/8dd44232-343f-4dfb-8aaa-2bd74cb2cbba%2Fwebsite_BG.png?v=1613441560006
+      )no-repeattopleft;
+  margin: 25px 0 5px 0;
+  width: 63px;
+  height: 10px;
+  
+
+  text-indent: 100%;
+/*   white-space: nowrap; */
+/*   overflow: hidden; */
+}
+
+.sidebar ul {
+  margin: 0;
+  padding: 0;
+  
+}
+.sidebar li {
+  line-height: 1.3em;
+  background: transparent url(https://cdn.glitch.com/8dd44232-343f-4dfb-8aaa-2bd74cb2cbba%2Fwebsite_BG.png?v=1613441560006) no-repeat top center;
+  display: block;
+  padding-top: 5px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.sidebar li a:link {
+  color: #FFFFF;
+  border-style: 1px solid;
+/*   border-bottom: 2px solid black; */
+  /*   background-color: lightgrey; */
+}
+.sidebar li a:visited {
+  color: #B3AE94;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+.header {
+  background: transparent url(https://cdn.glitch.com/8dd44232-343f-4dfb-8aaa-2bd74cb2cbba%2Fwebsite_BG.png?v=1613441560006) no-repeat center;
+  color: #ffffff;
+  padding: 0px 0px 0px 850px;
+  
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: #33b5e5;
+  color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.menu li:hover {
+  background-color: #0099cc;
+}
+
+/* .aside {
+  background-color: #33b5e5;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+} */
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
