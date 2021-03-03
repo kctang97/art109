@@ -1,26 +1,37 @@
-TE 4 CSS Zen Garden Template
+Welcome to Glitch
 =================
 
-Use this as a template to create your own verisons of the CSS Zen Garden project.
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
-Create 2 completely different designs, one using index.html and style.css and the other using index2.html and style2.css
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
 
-Steps:
+Find out more [about Glitch](https://glitch.com/about).
 
-1. Explore http://www.csszengarden.com/
 
-2. Remix this project
+Your Project
+------------
 
-3. Rename it
+### ← README.md
 
-4. For each, of your pages decide on a theme, edit this read.md file and list your chosen themes.
+That's this file, where you can tell people what your cool website does and how you built it.
 
-Index.html theme = ???
+### ← index.html
 
-Index2.html theme = ???
+Where you'll write the content of your website. 
 
-5. Using only the external css and inline css, modify the pages to reflect your chosen theme.
+### ← style.css
 
-Submit a screenshot of your progress by the end of the day 2/15 on Canvas
+CSS files add styling rules to your content.
 
-File submission due as a link 2/21 on Canvas
+### ← script.js
+
+If you're feeling fancy you can add interactivity to your site with JavaScript.
+
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
